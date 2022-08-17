@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-template-parser",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -13,11 +13,11 @@
   },
   "dependencies": {
     "tsup": "^6.1.2",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "trans-ast": "^1.3.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.3",
-    "trans-ast": "^1.3.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vitest": "^0.14.2",
